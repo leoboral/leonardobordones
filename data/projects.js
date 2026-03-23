@@ -5,11 +5,17 @@
       title: "SaaS Product for E-commerce",
       company: "RapidFlow",
       category: "SaaS Product",
+      cardSummary:
+        "Reframed a feature-heavy concept into a focused product journey for e-commerce operators.",
+      cardValue:
+        "Simplified onboarding and checkout so trial users reached first value faster and sales conversations became clearer.",
       shortDescription:
-        "Conversion-focused product strategy, checkout simplification, and Webflow-based execution for an e-commerce operations platform.",
+        "Product strategy and hands-on execution to simplify onboarding, sharpen value proposition, and improve activation quality.",
       year: "2023",
       overview:
         "RapidFlow needed to move from a feature-heavy concept to a focused product that small and mid-size e-commerce teams could adopt quickly. The project centered on clarifying the product promise, reducing friction in onboarding, and structuring the roadmap around measurable revenue impact.",
+      challenge:
+        "The team had product ambition but low first-session clarity. Users saw too many choices before understanding the core value, which slowed activation and created friction in sales.",
       contribution: [
         "Product strategy and roadmap definition",
         "UX/UI direction and Webflow implementation",
@@ -39,7 +45,14 @@
         }
       ],
       outcome:
-        "The new structure reduced onboarding friction and made the product easier to understand in the first minutes. Trial-to-activation performance improved and sales conversations became more focused around clear business outcomes.",
+        "The new structure reduced onboarding friction and made the product easier to understand in the first minutes. Trial-to-activation quality improved and sales conversations became more focused around concrete business outcomes.",
+      outcomeHighlights: [
+        "Clearer first-session journey from sign-up to activation",
+        "Reduced decision overload in plan selection and checkout",
+        "Stronger alignment between product narrative and commercial conversations"
+      ],
+      nextStep:
+        "After launch, the team expanded the same structure into retention-focused features and ongoing onboarding optimization, keeping product and growth priorities aligned.",
       nextProject: "web-product-for-hospitality"
     },
     {
@@ -47,11 +60,17 @@
       title: "Web Product for Hospitality",
       company: "Yummy Sites",
       category: "Web Product",
+      cardSummary:
+        "Designed a productized website system for restaurants needing premium quality with faster go-live.",
+      cardValue:
+        "Created a reusable delivery model with clearer conversion paths from visit to reservation or inquiry.",
       shortDescription:
-        "A conversion-focused website system for hospitality brands with faster launch cycles and cleaner user journeys.",
+        "A conversion-focused website product for hospitality brands, balancing visual quality with launch speed.",
       year: "2023",
       overview:
         "Yummy Sites was built to help restaurant and hospitality businesses launch modern websites without long production cycles. The goal was to design a reusable productized service with a high-quality visual standard and a clear conversion path from visit to booking or contact.",
+      challenge:
+        "Hospitality clients needed strong digital presence quickly, but custom builds often created long timelines and inconsistent conversion performance across projects.",
       contribution: [
         "Productized service definition",
         "Information architecture and conversion UX",
@@ -82,6 +101,13 @@
       ],
       outcome:
         "The project established a scalable delivery model with faster turnaround and stronger conversion performance for hospitality clients, while maintaining a premium visual direction.",
+      outcomeHighlights: [
+        "Reusable Webflow system reduced build friction across launches",
+        "Clear CTA architecture improved booking and inquiry intent",
+        "Consistent visual standard preserved premium brand perception"
+      ],
+      nextStep:
+        "The system evolved into a repeatable productized workflow with clearer intake, templates, and optimization checkpoints for each new client launch.",
       nextProject: "operations-digitalization"
     },
     {
@@ -89,11 +115,17 @@
       title: "Operations Digitalization",
       company: "Stayland",
       category: "Operations System",
+      cardSummary:
+        "Transformed scattered team workflows into a structured digital operating system in ClickUp.",
+      cardValue:
+        "Improved ownership clarity, reduced coordination overhead, and made execution status visible across functions.",
       shortDescription:
-        "Operational workflows redesigned into a structured digital system using ClickUp, documentation standards, and ownership clarity.",
+        "Redesigned operations into a shared system with clearer ownership, standardized workflows, and reliable execution.",
       year: "2024",
       overview:
         "The operations team handled delivery through scattered documents, fragmented communication, and manual follow-up. The objective was to centralize execution in a single operational system, reduce coordination overhead, and create predictable handoffs between roles.",
+      challenge:
+        "Work was moving, but without a single operating system teams depended on manual follow-up, duplicated effort, and unclear responsibilities during handoffs.",
       contribution: [
         "Operational workflow mapping",
         "ClickUp workspace architecture",
@@ -124,6 +156,13 @@
       ],
       outcome:
         "The team gained visibility across priorities, reduced operational bottlenecks, and improved delivery consistency through a shared execution framework.",
+      outcomeHighlights: [
+        "Unified workspace replaced fragmented coordination channels",
+        "Standardized statuses and dependencies reduced follow-up loops",
+        "Leadership gained clearer visibility on priorities and blockers"
+      ],
+      nextStep:
+        "With the core system in place, the team added reporting rituals and process ownership reviews to keep continuous improvement embedded in daily operations.",
       nextProject: "finance-digitalization"
     },
     {
@@ -131,11 +170,17 @@
       title: "Finance Digitalization",
       company: "Vitaliti",
       category: "Finance Operations",
+      cardSummary:
+        "Rebuilt finance operations into a digital workflow model with embedded controls and clearer accountability.",
+      cardValue:
+        "Reduced monthly accounting lag from 30 days to 2-3 days while increasing transparency for operations and leadership.",
       shortDescription:
-        "Finance workflows transformed into a digital operating model with cleaner approvals, stronger visibility, and less manual reconciliation.",
+        "Digitalized finance workflows to improve cycle speed, governance, and decision-making visibility.",
       year: "2024",
       overview:
         "Finance operations depended on manual reconciliation and disconnected approval paths. The project focused on creating a digital workflow model that would keep control and compliance standards while improving speed and transparency across recurring finance processes.",
+      challenge:
+        "Finance teams were spending too much time reconciling data and chasing approvals, which delayed close cycles and limited proactive planning.",
       contribution: [
         "Process redesign for finance operations",
         "Approval flow and role definition",
@@ -165,7 +210,14 @@
         }
       ],
       outcome:
-        "Finance execution became more predictable and transparent, with fewer manual touchpoints and better decision support for leadership.",
+        "Finance execution became more predictable and transparent, with fewer manual touchpoints and better decision support for leadership. Monthly accounting lag moved from around 30 days to roughly 2-3 days.",
+      outcomeHighlights: [
+        "Accounting lag reduced from approximately 30 days to 2-3 days",
+        "Approval chain became clearer with role-based accountability",
+        "Leadership dashboards improved planning and intervention timing"
+      ],
+      nextStep:
+        "After stabilization, the model was extended with recurring governance reviews and performance tracking to maintain speed without sacrificing control.",
       nextProject: "saas-product-for-ecommerce"
     }
   ];
