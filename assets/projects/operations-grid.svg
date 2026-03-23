@@ -1,14 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="t d">
-  <title id="t">Operations Digitalization project card visual</title>
-  <desc id="d">Abstract gradient background for Operations Digitalization project.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Operations Digitalization project card visual</title>
+  <desc id="desc">Vibrant visual with bold typography for Operations Digitalization project.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#d9f0e3"/>
-      <stop offset="100%" stop-color="#d2ebf3"/>
+      <stop offset="0%" stop-color="#00b894" />
+      <stop offset="48%" stop-color="#1dd1ff" />
+      <stop offset="100%" stop-color="#3d5afe" />
     </linearGradient>
   </defs>
-  <rect width="1600" height="1100" fill="url(#bg)"/>
-  <circle cx="260" cy="260" r="220" fill="#9cd4b7" fill-opacity="0.6"/>
-  <circle cx="1220" cy="840" r="320" fill="#9ccde2" fill-opacity="0.5"/>
-  <text x="120" y="930" font-family="Inter, Arial, sans-serif" font-size="82" fill="#111111">Operations Digitalization</text>
+  <rect width="1600" height="1100" fill="url(#bg)" />
+  <circle cx="1380" cy="220" r="200" fill="#ffe66d" fill-opacity="0.35" />
+  <circle cx="1260" cy="930" r="280" fill="#ff6b6b" fill-opacity="0.3" />
+  <text x="84" y="540" font-family="Inter, Arial, sans-serif" font-size="126" font-weight="900" letter-spacing="-2" fill="#111111">OPERATIONS</text>
+  <text x="84" y="662" font-family="Inter, Arial, sans-serif" font-size="126" font-weight="900" letter-spacing="-2" fill="#111111">DIGITALIZATION</text>
 </svg>
