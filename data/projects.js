@@ -10,7 +10,7 @@
       cardValue:
         "Simplified onboarding and checkout so trial users reached first value faster and sales conversations became clearer.",
       shortDescription:
-        "Product strategy and hands-on execution to simplify onboarding, sharpen value proposition, and improve activation quality.",
+        "Product strategy and hands-on implementation to simplify onboarding, sharpen value proposition, and improve activation quality.",
       year: "2023",
       overview:
         "RapidFlow needed to move from a feature-heavy concept to a focused product that small and mid-size e-commerce teams could adopt quickly. The project centered on clarifying the product promise, reducing friction in onboarding, and structuring the roadmap around measurable revenue impact.",
@@ -20,7 +20,7 @@
         "Product strategy and roadmap definition",
         "UX/UI direction and Webflow implementation",
         "Checkout and onboarding flow redesign",
-        "Cross-functional execution with founders and developers"
+        "Cross-functional delivery with founders and developers"
       ],
       team: ["Founder", "Product Manager", "2 Frontend Developers"],
       buttonText: "See Website",
@@ -36,10 +36,10 @@
         {
           title: "Value Proposition",
           body:
-            "We translated the product into a clearer promise: faster launch and fewer manual steps in campaign execution. Messaging, IA, and onboarding copy were aligned around this one job to be done."
+            "We translated the product into a clearer promise: faster launch and fewer manual steps in campaign rollout. Messaging, IA, and onboarding copy were aligned around this one job to be done."
         },
         {
-          title: "Roadmap and Execution",
+          title: "Roadmap and Rollout",
           body:
             "The team prioritized high-impact improvements first: simplified plan selection, tighter checkout, and guided setup. Delivery moved in short weekly iterations with shared product and design checkpoints."
         }
@@ -63,14 +63,14 @@
       cardSummary:
         "Designed a productized website system for restaurants needing premium quality with faster go-live.",
       cardValue:
-        "Created a reusable delivery model with clearer conversion paths from visit to reservation or inquiry.",
+        "Created a reusable workflow model with clearer conversion paths from visit to reservation or inquiry.",
       shortDescription:
         "A conversion-focused website product for hospitality brands, balancing visual quality with launch speed.",
       year: "2023",
       overview:
-        "Yummy Sites was built to help restaurant and hospitality businesses launch modern websites without long production cycles. The goal was to design a reusable productized service with a high-quality visual standard and a clear conversion path from visit to booking or contact.",
+        "Yummy Sites was created to help restaurant and hospitality businesses launch modern websites without long production cycles. The goal was to design a reusable productized service with a high-quality visual standard and a clear conversion path from visit to booking or contact.",
       challenge:
-        "Hospitality clients needed strong digital presence quickly, but custom builds often created long timelines and inconsistent conversion performance across projects.",
+        "Hospitality clients needed strong digital presence quickly, but fully custom work often led to long timelines and inconsistent conversion performance across projects.",
       contribution: [
         "Productized service definition",
         "Information architecture and conversion UX",
@@ -91,7 +91,7 @@
         {
           title: "Template System",
           body:
-            "A modular component system was created in Webflow so each delivery could stay consistent while adapting to different restaurant identities and content priorities."
+            "A modular component system was created in Webflow so each launch could stay consistent while adapting to different restaurant identities and content priorities."
         },
         {
           title: "Conversion Tuning",
@@ -100,9 +100,9 @@
         }
       ],
       outcome:
-        "The project established a scalable delivery model with faster turnaround and stronger conversion performance for hospitality clients, while maintaining a premium visual direction.",
+        "The project established a scalable workflow model with faster turnaround and stronger conversion performance for hospitality clients, while maintaining a premium visual direction.",
       outcomeHighlights: [
-        "Reusable Webflow system reduced build friction across launches",
+        "Reusable Webflow system reduced production friction across launches",
         "Clear CTA architecture improved booking and inquiry intent",
         "Consistent visual standard preserved premium brand perception"
       ],
@@ -118,12 +118,12 @@
       cardSummary:
         "Transformed scattered team workflows into a structured digital operating system in ClickUp.",
       cardValue:
-        "Improved ownership clarity, reduced coordination overhead, and made execution status visible across functions.",
+        "Improved ownership clarity, reduced coordination overhead, and made progress visible across functions.",
       shortDescription:
-        "Redesigned operations into a shared system with clearer ownership, standardized workflows, and reliable execution.",
+        "Redesigned operations into a shared system with clearer ownership, standardized workflows, and reliable follow-through.",
       year: "2024",
       overview:
-        "The operations team handled delivery through scattered documents, fragmented communication, and manual follow-up. The objective was to centralize execution in a single operational system, reduce coordination overhead, and create predictable handoffs between roles.",
+        "The operations team handled work through scattered documents, fragmented communication, and manual follow-up. The objective was to centralize coordination in a single operational system, reduce overhead, and create predictable handoffs between roles.",
       challenge:
         "Work was moving, but without a single operating system teams depended on manual follow-up, duplicated effort, and unclear responsibilities during handoffs.",
       contribution: [
@@ -141,7 +141,7 @@
         {
           title: "Current State Audit",
           body:
-            "We reviewed existing tasks, channels, and reporting routines to identify duplicated work, unclear ownership, and recurring blockers in weekly execution."
+            "We reviewed existing tasks, channels, and reporting routines to identify duplicated work, unclear ownership, and recurring blockers in weekly coordination."
         },
         {
           title: "System Architecture",
@@ -155,7 +155,7 @@
         }
       ],
       outcome:
-        "The team gained visibility across priorities, reduced operational bottlenecks, and improved delivery consistency through a shared execution framework.",
+        "The team gained visibility across priorities, reduced operational bottlenecks, and improved consistency through a shared operating framework.",
       outcomeHighlights: [
         "Unified workspace replaced fragmented coordination channels",
         "Standardized statuses and dependencies reduced follow-up loops",
@@ -210,7 +210,7 @@
         }
       ],
       outcome:
-        "Finance execution became more predictable and transparent, with fewer manual touchpoints and better decision support for leadership. Monthly accounting lag moved from around 30 days to roughly 2-3 days.",
+        "Finance operations became more predictable and transparent, with fewer manual touchpoints and better decision support for leadership. Monthly accounting lag moved from around 30 days to roughly 2-3 days.",
       outcomeHighlights: [
         "Accounting lag reduced from approximately 30 days to 2-3 days",
         "Approval chain became clearer with role-based accountability",
