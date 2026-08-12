@@ -936,8 +936,8 @@
 
       .project-hero-image img {
         width: 100%;
-        max-height: min(72vh, 720px);
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
       }
 
       .project-overview-grid {

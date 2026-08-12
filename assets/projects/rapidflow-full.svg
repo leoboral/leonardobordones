@@ -1,17 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1300" viewBox="0 0 2400 1300" role="img" aria-labelledby="title desc">
   <title id="title">RapidFlow project full visual</title>
-  <desc id="desc">Vibrant full-width gradient visual with oversized typography for RapidFlow case study.</desc>
+  <desc id="desc">Full-width SaaS product visual with refined interface structure and restrained energetic accents.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ff6f3f" />
-      <stop offset="44%" stop-color="#ffd34a" />
-      <stop offset="100%" stop-color="#5e58ff" />
+      <stop offset="0%" stop-color="#fbfbf5"/>
+      <stop offset="100%" stop-color="#e4efda"/>
     </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0v80" fill="none" stroke="#183f20" stroke-opacity="0.07" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="36" stdDeviation="46" flood-color="#183f20" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect width="2400" height="1300" fill="url(#bg)" />
-  <circle cx="420" cy="240" r="260" fill="#ffffff" fill-opacity="0.28" />
-  <circle cx="2010" cy="1010" r="380" fill="#ff2aa0" fill-opacity="0.34" />
-  <circle cx="1980" cy="250" r="230" fill="#00d2ff" fill-opacity="0.34" />
-  <text x="150" y="640" font-family="Inter, Arial, sans-serif" font-size="248" font-weight="900" letter-spacing="-6" fill="#0f0f0f">RAPIDFLOW</text>
-  <text x="160" y="770" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="2" fill="#101010">SAAS PRODUCT FOR E-COMMERCE</text>
+  <rect width="2400" height="1300" fill="url(#bg)"/>
+  <rect width="2400" height="1300" fill="url(#grid)"/>
+  <circle cx="1988" cy="250" r="230" fill="#b9ee59" fill-opacity="0.42"/>
+  <circle cx="2110" cy="1070" r="365" fill="#c8794d" fill-opacity="0.16"/>
+  <g filter="url(#shadow)">
+    <rect x="220" y="180" width="1564" height="890" rx="40" fill="#11160f"/>
+    <rect x="268" y="230" width="1468" height="78" rx="22" fill="#f1f7ec" fill-opacity="0.1"/>
+    <circle cx="316" cy="269" r="10" fill="#b9ee59"/>
+    <circle cx="352" cy="269" r="10" fill="#d9e5cf" fill-opacity="0.42"/>
+    <circle cx="388" cy="269" r="10" fill="#d9e5cf" fill-opacity="0.26"/>
+    <rect x="306" y="372" width="422" height="480" rx="28" fill="#fbfbf5"/>
+    <rect x="772" y="372" width="422" height="480" rx="28" fill="#f1f7ec"/>
+    <rect x="1238" y="372" width="418" height="480" rx="28" fill="#183f20"/>
+    <rect x="358" y="434" width="170" height="22" rx="11" fill="#183f20"/>
+    <rect x="358" y="486" width="268" height="16" rx="8" fill="#5d6758" fill-opacity="0.3"/>
+    <rect x="358" y="530" width="214" height="16" rx="8" fill="#5d6758" fill-opacity="0.2"/>
+    <path d="M358 700c74-104 148-154 222-153 74 0 146 51 214 153 68 100 142 148 222 148 80 0 150-52 210-156" fill="none" stroke="#b9ee59" stroke-width="22" stroke-linecap="round"/>
+    <rect x="824" y="434" width="168" height="22" rx="11" fill="#183f20"/>
+    <rect x="824" y="502" width="300" height="168" rx="22" fill="#d9e5cf"/>
+    <rect x="824" y="714" width="246" height="20" rx="10" fill="#183f20" fill-opacity="0.28"/>
+    <rect x="1298" y="434" width="138" height="22" rx="11" fill="#b9ee59"/>
+    <rect x="1298" y="502" width="234" height="234" rx="34" fill="#fbfbf5" fill-opacity="0.12"/>
+    <path d="M1362 619h106m-53-53v106" stroke="#b9ee59" stroke-width="16" stroke-linecap="round"/>
+    <path d="M728 612h44m422 0h44" stroke="#b9ee59" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <text x="220" y="1180" font-family="Inter, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="0" fill="#11160f">RapidFlow</text>
+  <text x="224" y="1246" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="0" fill="#183f20">SaaS product framing, onboarding, and implementation</text>
 </svg>

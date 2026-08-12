@@ -1,16 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1300" viewBox="0 0 2400 1300" role="img" aria-labelledby="title desc">
   <title id="title">Operations Digitalization project full visual</title>
-  <desc id="desc">High-color full-width visual with oversized typography for Operations Digitalization case study.</desc>
+  <desc id="desc">Full-width operations system visual with workflow lanes, ownership markers, and calm green accents.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00b894" />
-      <stop offset="50%" stop-color="#1ed3ff" />
-      <stop offset="100%" stop-color="#3d5afe" />
+      <stop offset="0%" stop-color="#f1f7ec"/>
+      <stop offset="100%" stop-color="#fbfbf5"/>
     </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0v80" fill="none" stroke="#183f20" stroke-opacity="0.06" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="36" stdDeviation="46" flood-color="#183f20" flood-opacity="0.16"/>
+    </filter>
   </defs>
-  <rect width="2400" height="1300" fill="url(#bg)" />
-  <circle cx="430" cy="240" r="250" fill="#ffe66d" fill-opacity="0.34" />
-  <circle cx="1960" cy="1010" r="360" fill="#ff6b6b" fill-opacity="0.3" />
-  <text x="150" y="600" font-family="Inter, Arial, sans-serif" font-size="212" font-weight="900" letter-spacing="-5" fill="#101010">OPERATIONS</text>
-  <text x="150" y="810" font-family="Inter, Arial, sans-serif" font-size="212" font-weight="900" letter-spacing="-5" fill="#101010">DIGITALIZATION</text>
+  <rect width="2400" height="1300" fill="url(#bg)"/>
+  <rect width="2400" height="1300" fill="url(#grid)"/>
+  <circle cx="1986" cy="252" r="220" fill="#b9ee59" fill-opacity="0.36"/>
+  <circle cx="2100" cy="1052" r="360" fill="#6aa99a" fill-opacity="0.2"/>
+  <g filter="url(#shadow)">
+    <rect x="232" y="168" width="1570" height="912" rx="42" fill="#11160f"/>
+    <rect x="296" y="232" width="1442" height="110" rx="24" fill="#f1f7ec" fill-opacity="0.1"/>
+    <rect x="354" y="278" width="188" height="20" rx="10" fill="#b9ee59"/>
+    <rect x="598" y="278" width="772" height="20" rx="10" fill="#d9e5cf" fill-opacity="0.22"/>
+    <g fill="#fbfbf5">
+      <rect x="296" y="416" width="420" height="500" rx="28"/>
+      <rect x="774" y="416" width="420" height="500" rx="28"/>
+      <rect x="1252" y="416" width="420" height="500" rx="28"/>
+    </g>
+    <g fill="#183f20">
+      <rect x="354" y="486" width="150" height="18" rx="9"/>
+      <rect x="832" y="486" width="150" height="18" rx="9"/>
+      <rect x="1310" y="486" width="150" height="18" rx="9"/>
+    </g>
+    <g fill="#d9e5cf">
+      <rect x="354" y="562" width="302" height="80" rx="16"/>
+      <rect x="354" y="684" width="252" height="80" rx="16"/>
+      <rect x="832" y="562" width="302" height="80" rx="16"/>
+      <rect x="832" y="684" width="302" height="80" rx="16"/>
+      <rect x="1310" y="562" width="302" height="80" rx="16"/>
+      <rect x="1310" y="684" width="236" height="80" rx="16"/>
+    </g>
+    <path d="M716 602h58m420 0h58" stroke="#b9ee59" stroke-width="14" stroke-linecap="round"/>
+    <path d="M716 724h58m420 0h58" stroke="#6aa99a" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="660" cy="824" r="24" fill="#b9ee59"/>
+    <circle cx="1136" cy="824" r="24" fill="#6aa99a"/>
+    <circle cx="1612" cy="824" r="24" fill="#b9ee59"/>
+  </g>
+  <text x="232" y="1180" font-family="Inter, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="0" fill="#11160f">Operations Digitalization</text>
+  <text x="236" y="1246" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="0" fill="#183f20">Workflow architecture, ownership, and delivery visibility</text>
 </svg>

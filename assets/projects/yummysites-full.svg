@@ -1,16 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1300" viewBox="0 0 2400 1300" role="img" aria-labelledby="title desc">
   <title id="title">Yummy Sites project full visual</title>
-  <desc id="desc">Colorful full-width visual with oversized typography for Yummy Sites case study.</desc>
+  <desc id="desc">Full-width hospitality web product visual with warm editorial panels and calm green contrast.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ff4a66" />
-      <stop offset="50%" stop-color="#ff9b1f" />
-      <stop offset="100%" stop-color="#ffe760" />
+      <stop offset="0%" stop-color="#fbfbf5"/>
+      <stop offset="62%" stop-color="#f1f7ec"/>
+      <stop offset="100%" stop-color="#d9e5cf"/>
     </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0v80" fill="none" stroke="#183f20" stroke-opacity="0.06" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="36" stdDeviation="46" flood-color="#183f20" flood-opacity="0.16"/>
+    </filter>
   </defs>
-  <rect width="2400" height="1300" fill="url(#bg)" />
-  <circle cx="350" cy="1040" r="380" fill="#7f4dff" fill-opacity="0.32" />
-  <circle cx="1960" cy="260" r="240" fill="#00e7d4" fill-opacity="0.34" />
-  <text x="150" y="640" font-family="Inter, Arial, sans-serif" font-size="232" font-weight="900" letter-spacing="-6" fill="#171717">YUMMY SITES</text>
-  <text x="160" y="770" font-family="Inter, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="2" fill="#171717">WEB PRODUCT FOR HOSPITALITY</text>
+  <rect width="2400" height="1300" fill="url(#bg)"/>
+  <rect width="2400" height="1300" fill="url(#grid)"/>
+  <circle cx="1990" cy="276" r="240" fill="#d9954f" fill-opacity="0.25"/>
+  <circle cx="2100" cy="1058" r="350" fill="#b9ee59" fill-opacity="0.34"/>
+  <g filter="url(#shadow)">
+    <rect x="240" y="164" width="1560" height="914" rx="42" fill="#11160f"/>
+    <rect x="296" y="224" width="626" height="734" rx="30" fill="#fbfbf5"/>
+    <rect x="976" y="224" width="766" height="734" rx="30" fill="#f1f7ec"/>
+    <rect x="354" y="288" width="510" height="292" rx="26" fill="#d9954f" fill-opacity="0.82"/>
+    <path d="M354 580c118-112 230-149 334-110 62 23 114 68 176 134v156H354z" fill="#183f20" fill-opacity="0.92"/>
+    <rect x="354" y="660" width="230" height="22" rx="11" fill="#11160f"/>
+    <rect x="354" y="710" width="418" height="16" rx="8" fill="#5d6758" fill-opacity="0.34"/>
+    <rect x="354" y="756" width="344" height="16" rx="8" fill="#5d6758" fill-opacity="0.24"/>
+    <rect x="354" y="850" width="202" height="54" rx="27" fill="#183f20"/>
+    <rect x="1038" y="288" width="202" height="22" rx="11" fill="#183f20"/>
+    <rect x="1038" y="370" width="610" height="110" rx="20" fill="#fbfbf5"/>
+    <rect x="1038" y="524" width="610" height="110" rx="20" fill="#fbfbf5"/>
+    <rect x="1038" y="678" width="286" height="110" rx="20" fill="#fbfbf5"/>
+    <rect x="1362" y="678" width="286" height="110" rx="20" fill="#b9ee59" fill-opacity="0.72"/>
+    <path d="M1098 425h434M1098 579h434M1098 733h132" stroke="#183f20" stroke-opacity="0.28" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="1582" cy="424" r="28" fill="#d9954f" fill-opacity="0.72"/>
+    <circle cx="1582" cy="578" r="28" fill="#183f20" fill-opacity="0.24"/>
+  </g>
+  <text x="240" y="1180" font-family="Inter, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="0" fill="#11160f">Yummy Sites</text>
+  <text x="244" y="1246" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="0" fill="#183f20">Productized hospitality websites with conversion paths</text>
 </svg>
