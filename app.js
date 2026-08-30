@@ -71,13 +71,53 @@
               <h3><a href="${projectUrl}">${project.title}</a></h3>
               <p class="project-company">${project.company}</p>
               <p class="project-summary">${project.cardSummary || project.shortDescription}</p>
-              <p class="project-value"><span>Value Created</span><span class="project-value-text">${project.cardValue || project.shortDescription}</span></p>
+              <p class="project-value"><span>What changed</span><span class="project-value-text">${project.cardValue || project.shortDescription}</span></p>
               <a class="project-link" href="${projectUrl}">Read case study</a>
             </div>
           </article>
         `;
       })
       .join("");
+  }
+
+  function initArtifact() {
+    const artifact = document.querySelector("[data-artifact]");
+    if (!artifact) return;
+
+    const tabs = Array.from(artifact.querySelectorAll("[data-artifact-tab]"));
+    const screens = Array.from(artifact.querySelectorAll("[data-artifact-screen]"));
+    const counter = artifact.querySelector(".artifact-counter");
+    let activeIndex = 0;
+    let timer;
+
+    function selectScreen(index) {
+      activeIndex = (index + tabs.length) % tabs.length;
+      tabs.forEach((tab, tabIndex) => {
+        const active = tabIndex === activeIndex;
+        tab.classList.toggle("is-active", active);
+        tab.setAttribute("aria-selected", String(active));
+      });
+      screens.forEach((screen, screenIndex) => {
+        const active = screenIndex === activeIndex;
+        screen.hidden = !active;
+        screen.classList.toggle("is-active", active);
+      });
+      if (counter) counter.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(tabs.length).padStart(2, "0")}`;
+    }
+
+    function restartTimer() {
+      window.clearInterval(timer);
+      timer = window.setInterval(() => selectScreen(activeIndex + 1), 5200);
+    }
+
+    tabs.forEach((tab, index) => tab.addEventListener("click", () => {
+      selectScreen(index);
+      restartTimer();
+    }));
+    artifact.addEventListener("mouseenter", () => window.clearInterval(timer));
+    artifact.addEventListener("mouseleave", restartTimer);
+    selectScreen(0);
+    restartTimer();
   }
 
   function renderMetadataList(items) {
@@ -124,7 +164,7 @@
             I help teams define the right scope, shape the user experience, and deliver practical systems that create momentum.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="mailto:hello@leonardobordones.com?subject=Project%20Inquiry">Start a project conversation</a>
+            <a class="button button-primary" href="mailto:leoboralvarez@gmail.com?subject=Project%20Inquiry">Start a project conversation</a>
             <a class="button button-secondary" href="${workLink}">Back to selected work</a>
           </div>
         </div>
@@ -301,6 +341,7 @@
 
     if (document.body.dataset.page === "home") {
       initHomePage();
+      initArtifact();
       return;
     }
 

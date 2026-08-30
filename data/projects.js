@@ -23,8 +23,8 @@
         "Cross-functional delivery with founders and developers"
       ],
       team: ["Founder", "Product Manager", "2 Frontend Developers"],
-      buttonText: "See Website",
-      buttonLink: "https://www.rapidflow.io",
+      buttonText: "Request case details",
+      buttonLink: "mailto:leoboralvarez@gmail.com?subject=RapidFlow%20case%20study",
       gridImage: "assets/projects/rapidflow-grid.svg",
       fullBleedImage: "assets/projects/rapidflow-full.svg",
       process: [
@@ -78,8 +78,8 @@
         "Performance and mobile-first optimization"
       ],
       team: ["Founder", "Designer", "Webflow Developer"],
-      buttonText: "Visit Project",
-      buttonLink: "https://www.yummysites.com",
+      buttonText: "Request case details",
+      buttonLink: "mailto:leoboralvarez@gmail.com?subject=Yummy%20Sites%20case%20study",
       gridImage: "assets/projects/yummysites-grid.svg",
       fullBleedImage: "assets/projects/yummysites-full.svg",
       process: [
@@ -133,8 +133,8 @@
         "Adoption support and rollout facilitation"
       ],
       team: ["COO", "Operations Lead", "Customer Success", "4 Specialists"],
-      buttonText: "View Workflow Snapshot",
-      buttonLink: "https://www.clickup.com",
+      buttonText: "Request case details",
+      buttonLink: "mailto:leoboralvarez@gmail.com?subject=Operations%20case%20study",
       gridImage: "assets/projects/operations-grid.svg",
       fullBleedImage: "assets/projects/operations-full.svg",
       process: [
@@ -188,8 +188,8 @@
         "Change management with operations and leadership"
       ],
       team: ["Finance Manager", "Operations Director", "Product Manager"],
-      buttonText: "Read Case Context",
-      buttonLink: "https://www.notion.so",
+      buttonText: "Request case details",
+      buttonLink: "mailto:leoboralvarez@gmail.com?subject=Finance%20case%20study",
       gridImage: "assets/projects/finance-grid.svg",
       fullBleedImage: "assets/projects/finance-full.svg",
       process: [
